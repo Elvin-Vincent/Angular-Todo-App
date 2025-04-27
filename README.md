@@ -1,6 +1,9 @@
-# 📝 Angular Todo App
+# 📄 Angular Todo App
 
-A simple and elegant Todo application built with Angular. Helps you organize your tasks efficiently with an intuitive UI and smooth functionality.
+A simple and elegant Todo application built with **Angular**.  
+Helps you organize your tasks efficiently with an intuitive UI and smooth functionality.
+
+---
 
 ## 🚀 Features
 
@@ -8,52 +11,51 @@ A simple and elegant Todo application built with Angular. Helps you organize you
 - Edit existing todos
 - Mark tasks as completed
 - Delete tasks
-- Responsive design (works on mobile and desktop)
+- **Responsive design** (works on mobile and desktop)
+
+---
 
 ## 🛠️ Tech Stack
 
-- Frontend: Angular
-- Styling: CSS3
-- Version Control: Git & GitHub
+- **Frontend:** Angular
+- **Styling:** CSS3
+- **Version Control:** Git & GitHub
+
+---
 
 ## 🌄 Installation & Setup
 
-Clone the repository:
+Follow these steps to set up the project locally:
 
-```bash
-git clone https://github.com/Elvin-Vincent/Angular-Todo-App.git
-Navigate to the project directory:
+1. **Clone the repository**  
+   `git clone https://github.com/Elvin-Vincent/Angular-Todo-App.git`
 
-bash
-Copy
-Edit
-cd Angular-Todo-App
-Install dependencies:
+2. **Navigate to the project directory**  
+   `cd Angular-Todo-App`
 
-bash
-Copy
-Edit
-npm install
-Run the app locally:
+3. **Install dependencies**  
+   `npm install`
 
-bash
-Copy
-Edit
-ng serve
-Open your browser and go to:
+4. **Run the app locally**  
+   `ng serve`
 
-arduino
-Copy
-Edit
-http://localhost:4200/
-✨ Future Improvements
-Add user authentication
+Now open your browser and go to 👉 [http://localhost:4200/](http://localhost:4200/)
 
-Save todos to a database
+---
 
-Dark mode theme
+## ✨ Future Improvements
 
-yaml
-Copy
-Edit
-```
+- Add user authentication
+- Deploy to a cloud server
+- Add dark/light theme switcher
+
+---
+
+## 🙌 Contributions
+
+Pull requests are welcome!  
+Feel free to open issues for suggestions, bugs, or improvements.
+
+---
+
+# ⭐ Thank you for visiting!
