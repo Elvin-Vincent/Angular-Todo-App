@@ -1,0 +1,28 @@
+<div class="todo-container">
+  <app-add-to-do (todoAdd)="addTodo($event)"></app-add-to-do>
+
+  <ul>
+    <li *ngFor="let todo of todos; let i = index" class="todo-item">
+      <div class="todo-header">
+        <div class="left-side">
+          <input
+            type="checkbox"
+            [(ngModel)]="todo.active"
+            (change)="onStatusChange()"
+          />
+          <h2 [class.completed]="todo.active">{{ todo.title }}</h2>
+        </div>
+        <span *ngIf="todo.active" class="badge badge-success">Completed</span>
+      </div>
+
+      <p>{{ todo.desc }}</p>
+
+      <button
+        (click)="onClickDelete(i)"
+        class="btn btn-danger btn-sm delete-btn"
+      >
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>

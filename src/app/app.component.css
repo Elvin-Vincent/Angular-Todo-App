@@ -1,0 +1,153 @@
+/* Main container to hold everything */
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+  width: 20%;
+  background: #2d2d2d; /* Dark background for a sleek look */
+  padding: 20px;
+  border-right: 2px solid #444;
+  height: 100vh;
+  overflow-y: auto;
+  color: #fff; /* White text for contrast */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2); /* Adding shadow for depth */
+  font-family: "Arial", sans-serif;
+}
+
+.left-sidebar .sidebar-item h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.left-sidebar .sidebar-item ul li {
+  margin-bottom: 15px;
+}
+
+.left-sidebar .sidebar-item ul li a {
+  color: #b8b8b8;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.left-sidebar .sidebar-item ul li a:hover {
+  color: #ff5e57; /* Highlight color on hover */
+  text-decoration: underline;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 20%;
+  background: #f7f7f7; /* Light background for contrast */
+  padding: 20px;
+  border-left: 2px solid #ddd;
+  height: 100vh;
+  overflow-y: auto;
+  color: #333; /* Dark text for easy reading */
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+  font-family: "Arial", sans-serif;
+}
+
+.right-sidebar .sidebar-item h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.right-sidebar .sidebar-item p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.right-sidebar .sidebar-item .btn-info {
+  background-color: #28a745; /* Green button for positive action */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.right-sidebar .sidebar-item .btn-info:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Content container */
+.content-container {
+  width: 60%; /* Adjust width of content */
+  padding: 20px;
+  background: #ffffff;
+  height: 100vh;
+  overflow-y: auto;
+  flex-grow: 1;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.navbar .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Sidebar links */
+.sidebar-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sidebar-item ul {
+  padding-left: 0;
+}
+
+.sidebar-item ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.sidebar-item ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sidebar-item ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
