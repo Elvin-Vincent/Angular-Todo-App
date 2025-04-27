@@ -1,31 +1,26 @@
-📋 Angular Todo App
-A simple and elegant Todo application built with Angular.
-Helps you organize your tasks efficiently with an intuitive UI and smooth functionality.
+# 📝 Angular Todo App
 
-🚀 Features
-Add new todos
+A simple and elegant Todo application built with Angular. Helps you organize your tasks efficiently with an intuitive UI and smooth functionality.
 
-Edit existing todos
+## 🚀 Features
 
-Mark tasks as completed
+- Add new todos
+- Edit existing todos
+- Mark tasks as completed
+- Delete tasks
+- Responsive design (works on mobile and desktop)
 
-Delete tasks
+## 🛠️ Tech Stack
 
-Responsive design (works on mobile and desktop)
+- Frontend: Angular
+- Styling: CSS3
+- Version Control: Git & GitHub
 
-🛠 Tech Stack
-Frontend: Angular
+## 🌄 Installation & Setup
 
-Styling: CSS3
-
-Version Control: Git & GitHub
-
-🛤️ Installation & Setup
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/Elvin-Vincent/Angular-Todo-App.git
 Navigate to the project directory:
 
@@ -56,14 +51,9 @@ Add user authentication
 
 Save todos to a database
 
-Dark mode toggle
+Dark mode theme
 
-Drag-and-drop todo rearrangement
-
-📄 License
-This project is licensed under the MIT License.
-
-🙌 Acknowledgements
-Thanks to Angular and the awesome open-source community!
-
-🌟
+yaml
+Copy
+Edit
+```
