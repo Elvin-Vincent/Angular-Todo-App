@@ -1,0 +1,95 @@
+.todo-container {
+  margin-top: 20px;
+}
+
+/* Styling for todo item list */
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove left padding */
+  margin: 0;
+}
+
+.todo-item {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header inside each todo item */
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left side (checkbox + title) */
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+/* Title next to checkbox */
+.todo-header h2 {
+  margin: 0;
+  margin-left: 15px; /* Space between dot and title */
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Checkbox */
+.todo-header input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  /* margin-right: 15px; */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Change checkbox color when active */
+.todo-header input[type="checkbox"]:checked {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Completed title style */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Completed badge */
+.badge {
+  background-color: #28a745;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* Delete Button */
+.delete-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: #f0f0f0; /* light gray */
+  color: #333;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e57373; /* soft light red on hover */
+  color: white;
+  border: 1px solid #e57373;
+}
